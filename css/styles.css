@@ -62,6 +62,7 @@ ul {
   padding-top: 24px;
   padding-bottom: 25px;
   height: 80px;
+  border-bottom: 1px solid #ececec;
 }
 .page-header {
   display: flex;
@@ -118,7 +119,7 @@ ul {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.mail {
+.inform-mail {
   margin-right: 50px;
 }
 .tel:hover,
@@ -133,8 +134,8 @@ ul {
 /* кнопка*/
 .decision {
   background-color: var(--secondary-background-color);
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   text-align: center;
 }
 .decision .business {
@@ -145,6 +146,9 @@ ul {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin-left: auto;
+  margin-right: auto;
+  width: 696px;
   margin-bottom: 30px;
 }
 .decision .button {
@@ -162,6 +166,7 @@ ul {
   min-height: 50px;
   border: transparent;
   justify-content: center;
+  padding: 10px 32px;
 }
 .decision .button:hover,
 .decision .button:focus,
@@ -176,7 +181,7 @@ ul {
   border: transparent;
 }
 
-/* Чим ми займаємося */
+/* Особливості */
 .characteristic {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -184,9 +189,6 @@ ul {
 .section-features {
   display: flex;
   justify-content: space-between;
-}
-.section-marg :not(:last-child) {
-  margin-right: 50px;
 }
 .characteristic .title {
   color: var(--title-text-color);
@@ -200,13 +202,12 @@ ul {
   width: 270px;
 }
 .title {
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
-/* Наша команда */
+/* Чим ми займаємося */
 
 .work {
-  padding-top: 94px;
   padding-bottom: 94px;
 }
 .sens {
@@ -222,6 +223,8 @@ ul {
   display: flex;
   justify-content: space-between;
 }
+
+/* Наша команда */
 .all-team {
   background-color: #f5f4fa;
   padding-top: 94px;
@@ -240,27 +243,28 @@ ul {
   justify-content: space-between;
   align-items: center;
 }
-.bgcol {
+.card {
   background-color: var(--primary-white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
+.box {
+  padding: 30px 30px;
+}
 .name {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  padding-top: 30px;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
   text-align: center;
 }
 .profession {
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.19;
-  padding-bottom: 30px;
   text-align: center;
 }
 
@@ -276,14 +280,15 @@ ul {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  margin-right: 0px;
-  margin-bottom: 20px;
 }
 .info .logo {
   color: var(--accent-color);
 }
 .information :not(:last-child) {
-  padding-bottom: 9px;
+  margin-bottom: 9px;
+}
+.information {
+  margin-top: 20px;
 }
 .info .address {
   color: var(--primary-white-color);
@@ -308,17 +313,20 @@ ul {
 }
 
 /* Portfolio*/
-
+.portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .all-button {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  margin-top: 94px;
+  justify-content: center;
   margin-bottom: 34px;
 }
-.all-button:not(:last-child) {
+.top:not(:last-child) {
   margin-right: 8px;
 }
+
 .button {
   color: var(--title-text-color);
   background-color: #f5f4fa;
@@ -327,8 +335,9 @@ ul {
   font-size: 16px;
   line-height: 1.62;
   min-width: 73px;
-  min-height: 38px;
+  height: 38px;
   border: transparent;
+  padding: 6px 22px;
 }
 
 .button:hover,
@@ -352,19 +361,20 @@ ul {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding-top: 34px;
-  padding-bottom: 94px;
+  /* padding-top: 34px; */
+  /* padding-bottom: 94px; */
   gap: 30px;
 }
-
+.box-pic {
+  padding: 20px 24px;
+}
 .all .about {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  padding-top: 20px;
-  padding-bottom: 4px;
+  margin-bottom: 4px;
 }
 .all .what {
   color: var(--primary-text-color);
