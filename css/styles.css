@@ -365,9 +365,6 @@ ul {
   /* padding-bottom: 94px; */
   gap: 30px;
 }
-.box-pic {
-  padding: 20px 24px;
-}
 .all .about {
   color: var(--title-text-color);
   font-weight: 700;
@@ -380,4 +377,7 @@ ul {
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.87;
+}
+.box-pic {
+  padding: 20px 24px;
 }
