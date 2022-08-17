@@ -275,19 +275,20 @@ ul {
   padding-bottom: 60px;
   display: block;
 }
-.info .web {
+.weblogo {
   color: var(--primary-white-color);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  text-decoration: none;
 }
-.info .logo {
+.logoweb {
   color: var(--accent-color);
 }
 .information :not(:last-child) {
   margin-bottom: 9px;
 }
-.information {
+.place {
   margin-top: 20px;
 }
 .info .address {
@@ -380,4 +381,7 @@ ul {
 }
 .box-pic {
   padding: 20px 24px;
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 }
